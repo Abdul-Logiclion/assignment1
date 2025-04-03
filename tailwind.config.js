@@ -10,9 +10,13 @@ module.exports = {
       },
     },
   },
+ 
   plugins: [
     'tailwindcss',
-    'autoprefixer'
+    'autoprefixer',
+    require('@tailwindcss/aspect-ratio'),
+    require('@tailwindcss/typography'),
+    require('@tailwindcss/forms'),
   ],
 }
 

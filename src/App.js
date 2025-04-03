@@ -1,6 +1,6 @@
 
 import './App.css';
-import PageSelectionModal from './PageSelectionModal'
+import PageSelectionModal from './components/PageSelectionModal'
 function App() {
   return (
     <div className="App ">
