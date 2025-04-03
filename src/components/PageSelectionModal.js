@@ -86,9 +86,9 @@ export default function PageSelectionModal() {
     
       <div
         style={{ marginTop: `${marginTop}px` }} 
-       className={`w-[370px] h-[326px] border-[1px border-[#EEEEEE]] rounded-[6px] bg-white pt-[10px]
-         pb-[10px] flex flex-col font-montserrat text-[14px]  leading-[130%] tracking-normal align-middle 
-          card-container `}
+        className={`w-[370px] sm:w-[400px] md:w-[500px] h-[326px] border-[1px border-[#EEEEEE]] rounded-[6px]
+           bg-white pt-[10px] pb-[10px] flex flex-col font-montserrat text-[14px] leading-[130%] tracking-normal align-middle card-container`}
+
       >
          {/* Select All Section */}
 
@@ -96,7 +96,7 @@ export default function PageSelectionModal() {
          <CustomCheckbox title="All pages"/>
                 {/* Divider */}
 
-        <div className=" px-[15px] py-[10px] ">
+        <div className=" px-[15px] py-[10px]  ">
           <div className="border-t-[0.7px] border-[#CDCDCD]"></div>
         </div>
 
